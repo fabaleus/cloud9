@@ -5,6 +5,22 @@
             "ReceiptHandle": "test2",
             "MD5OfBody": 12345,
             "Body": true
+        },
+        "apigateway": {
+            "path": "/globiqapigateway/lambda",
+            "method": {
+                "value": "POST",
+                "items": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE",
+                    "HEAD",
+                    "OPTIONS",
+                    "PATCH"
+                ]
+            },
+            "body": {}
         }
     }
 }
