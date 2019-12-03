@@ -1,0 +1,10 @@
+{
+    "coreSQSTalendNewMail": {
+        "lambda": {
+            "MessageId": "test1234",
+            "ReceiptHandle": "test2",
+            "MD5OfBody": 12345,
+            "Body": true
+        }
+    }
+}
