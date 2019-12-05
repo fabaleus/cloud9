@@ -1,26 +1,27 @@
 {
     "coreSQSTalendNewMail": {
         "lambda": {
-            "MessageId": "test1234",
-            "ReceiptHandle": "test2",
-            "MD5OfBody": 12345,
-            "Body": true
+            "body": {
+                "MessageId": "test1234",
+                "ReceiptHandle": "test2",
+                "MD5OfBody": 12345,
+                "Body": true
+            }
         },
         "apigateway": {
-            "path": "/globiqapigateway/lambda",
+            "path": "/",
             "method": {
                 "value": "POST",
                 "items": [
-                    "GET",
-                    "POST",
-                    "PUT",
-                    "DELETE",
-                    "HEAD",
-                    "OPTIONS",
-                    "PATCH"
+                    "POST"
                 ]
             },
-            "body": {}
+            "body": {
+                "MessageId": "test1234",
+                "ReceiptHandle": "test2",
+                "MD5OfBody": 12345,
+                "Body": true
+            }
         }
     }
 }
